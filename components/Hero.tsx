@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Dash from "./Dash";
+import DashedLine from "./DashedLine";
 const Hero = () => {
   return (
-    <section className="mt-12">
+    <section className="mt-32">
       {/*buraya scaling için flex-col gerekli*/}
-      <div className="flex justify-between">
-        <div className="w-1/2 flex flex-col justify-evenly text-2xl">
-          <h1>TEXT BURAYA</h1>
+
+      <div className="flex max-w-5xl justify-between mx-auto">
+        <div className=" flex w-1/2 flex-col justify-evenly text-3xl">
           <p>
             Consulting services for developing complex and/or technical
             projects, providing actionable recommendations and strategy across
@@ -30,6 +31,30 @@ const Hero = () => {
             height="400"
           ></Image>
         </div>
+      </div>
+      <DashedLine orientation="vertical" className="mt-20 mx-auto" />
+      <div className="mb-10 justify-center max-w-3xl mx-auto">
+        {/* <Image
+          src="/latlog3.png"
+          alt="Lat48 Logo"
+          width={800}
+          height={1000}
+          priority
+          className="mt-3 mx-auto"
+        /> */}
+
+        {/* <h2 className="text-3xl text-center  text-teal-200  border-b-2 w-fit mx-auto">
+          Bespoke solutions bıdıbıdı
+        </h2> */}
+        <br />
+        <h1 className=" text-5xl text-center">
+          Lat48 is a geographically distributed team of finance consultants and
+          crypto vets skilled at building and scaling teams, transforming legacy
+          processes/systems.
+        </h1>
+        <br />
+        <DashedLine orientation="vertical" className="mt-20 mx-auto" />
+        <br />
       </div>
     </section>
   );

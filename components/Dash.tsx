@@ -8,7 +8,7 @@ const Dash: React.FC<{
   className?: string; // Explicitly typing className as a string
 }> = ({
   width = "100%",
-  height = "8px",
+  height = "7px",
   color = "#ACB3BF",
   dashArray = "15,15",
   className,

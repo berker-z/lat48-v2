@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,4 +20,25 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.logo_sil {
+  @apply  mr-2 opacity-100 group-hover:opacity-0 transition-opacity duration-100 ease-in-out;
+}
+
+.logo_full {
+  @apply mr-2 opacity-0 group-hover:opacity-100 absolute top-0 left-0 transition-opacity duration-100 ease-in-out;
+}
+.transition-fade {
+  opacity: 0;
+ 
+
+  @apply hidden;
+}
+
+.transition-fade.active {
+  opacity: 1;
+  transition: opacity 1s;
+  @apply block;
 }
