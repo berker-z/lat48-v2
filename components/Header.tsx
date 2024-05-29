@@ -4,24 +4,21 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <nav className="">
-      <div>
-        <div className="mt-10 h-24 flex items-center justify-center relative border">
-          <Dash className="absolute top-1/2 left-0 w-full " />
+    <nav className="mt-5 h-24 flex items-center justify-center relative">
+      <Dash className="absolute top-1/2 left-0 w-full " />
 
-          <div className=" flex flex-grow p-20 ">
-            <Image
-              src="/rect.svg"
-              alt="Lat48 Logo"
-              width={100}
-              height={24}
-              priority
-            />
-            lat47847474
-          </div>
-        </div>
-
-        <p>lat484</p>
+      <div className="flex w-full max-w-6xl justify-between items-end">
+        <Image
+          src="/rect2.svg"
+          alt="Lat48 Logo"
+          width={180}
+          height={180}
+          priority
+          className="mt-3"
+        />
+        <p className="align-self-end mb-3 text-4xl text-lat-prim font-ubuntu">
+          / home
+        </p>
       </div>
     </nav>
   );

@@ -17,11 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
-      <body className=" bg-lat-bg">
-      <Header/>
-        {children}</body>
-      <Footer/>
+      <body className=" bg-lat-bg text-lat-prim flex flex-col min-h-screen">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
