@@ -7,8 +7,8 @@ const Hero = () => {
     <section className="mt-32">
       {/*buraya scaling için flex-col gerekli*/}
 
-      <div className="flex max-w-5xl justify-between mx-auto">
-        <div className=" flex w-1/2 flex-col justify-evenly text-3xl">
+      <div className="flex max-w-5xl sm:flex-col-reverse justify-between mx-auto gap-y-5">
+        <div className=" flex notsm:w-1/2 flex-col justify-evenly text-3xl notsm:gap-y-5">
           <p>
             Consulting services for developing complex and/or technical
             projects, providing actionable recommendations and strategy across
@@ -16,14 +16,14 @@ const Hero = () => {
             or subject experts that create long-term strategic and ecosystem
             partners.
           </p>
-          <Dash />
+
           <br />
-          <button className="border rounded-lg p-1 ml-auto justify-end">
+          <button className="sm:mt-10 border rounded-lg p-1 ml-auto justify-end">
             book a call
           </button>
         </div>
 
-        <div className="w-1/2 flex justify-end">
+        <div className="notsm:w-1/2 flex justify-end">
           <Image
             src="/hero.png"
             alt="An Image"
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
       <DashedLine orientation="vertical" className="mt-20 mx-auto" />
-      <div className="mb-10 justify-center max-w-3xl mx-auto">
+      <div className=" justify-center max-w-3xl mx-auto">
         {/* <Image
           src="/latlog3.png"
           alt="Lat48 Logo"

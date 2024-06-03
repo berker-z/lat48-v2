@@ -7,7 +7,7 @@ const Header = () => {
     <nav className="mt-5 h-24 flex items-center justify-center relative">
       <Dash className="absolute top-1/2 left-0 w-full " />
 
-      <div className="flex w-full max-w-7xl justify-between items-end">
+      <div className="flex w-full max-w-7xl mx-5 justify-between items-end">
         <Image
           src="/rect2.svg"
           alt="Lat48 Logo"
