@@ -4,8 +4,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "lat48-v2",
-  description: "brrr",
+  title: "Lat48",
+  description: "Consulting Services",
 };
 
 export default function RootLayout({
