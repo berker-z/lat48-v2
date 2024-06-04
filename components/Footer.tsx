@@ -51,7 +51,7 @@ const Footer = () => {
             </a>
           </li>
           <li className="group relative w-min">
-            <a href={"berker.zor"} className="flex items-center">
+            <a href={"mailto:berker@lat48.io"} className="flex items-center">
               <MdOutlineEmail className="logo_sil" />
               <MdMail className=" logo_full" />
             </a>

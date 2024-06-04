@@ -18,9 +18,14 @@ const Hero = () => {
           </p>
 
           <br />
-          <button className="sm:mt-10 border rounded-lg p-1 ml-auto justify-end">
-            book a call
-          </button>
+          <a
+            href="https://calendly.com/berker-lat48"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sm:mt-10 px-3 border rounded-lg p-1 ml-auto justify-end hover:text-lat-bg hover:bg-lat-prim"
+          >
+            <button className="">book a call</button>
+          </a>
         </div>
 
         <div className="notsm:w-1/2 flex justify-end">
@@ -47,7 +52,7 @@ const Hero = () => {
           Bespoke solutions bıdıbıdı
         </h2> */}
         <br />
-        <h1 className=" text-5xl text-center">
+        <h1 className=" text-5xl sm:text-3xl text-center">
           Lat48 is a geographically distributed team of finance consultants and
           crypto vets skilled at building and scaling teams, transforming legacy
           processes/systems.
