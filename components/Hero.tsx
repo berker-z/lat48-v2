@@ -9,12 +9,10 @@ const Hero = () => {
 
       <div className="flex max-w-5xl sm:flex-col-reverse justify-between mx-auto gap-y-5">
         <div className=" flex notsm:w-1/2 flex-col justify-evenly text-3xl notsm:gap-y-5">
-          <p>
-            Consulting services for developing complex and/or technical
-            projects, providing actionable recommendations and strategy across
-            verticals, facilitating connections to high impact service providers
-            or subject experts that create long-term strategic and ecosystem
-            partners.
+          <p className="sm:text-xl">
+            Lat48 is a geographically distributed team of finance consultants
+            and crypto vets skilled at building and scaling teams, and
+            transforming legacy processes and systems.
           </p>
 
           <br />
@@ -52,10 +50,10 @@ const Hero = () => {
           Bespoke solutions bıdıbıdı
         </h2> */}
         <br />
-        <h1 className=" text-5xl sm:text-3xl text-center">
-          Lat48 is a geographically distributed team of finance consultants and
-          crypto vets skilled at building and scaling teams, transforming legacy
-          processes/systems.
+        <h1 className=" text-4xl sm:text-2xl text-center">
+          <br />
+          Powering the disruptors, visionaries, and game-changing technologies
+          bringing digital assets to the masses.
         </h1>
         <br />
         <DashedLine orientation="vertical" className="mt-20 mx-auto" />
